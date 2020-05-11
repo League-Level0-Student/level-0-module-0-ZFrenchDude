@@ -19,9 +19,9 @@ void setup() {
 face = loadImage("face.jpg");
   
 // 3. Set the size of the sketch. Make it big enough to show the face you chose.
-
+size(700,500);
 // 4. Resize the face so it is the same size as the sketch
-
+face.resize(700,500);
 // 5. Drag and drop an image with a mustache onto this sketch. 
 //    Try to find one with a transparent background. Use the same idea as in step 1.
 //    Make sure the file name is correct for the mustache image you saved.  
